@@ -1,0 +1,97 @@
+[debug] [2024-11-26T17:01:58.786Z] ----------------------------------------------------------------------
+[debug] [2024-11-26T17:01:58.791Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hasnain\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-26T17:01:58.792Z] CLI Version:   13.27.0
+[debug] [2024-11-26T17:01:58.792Z] Platform:      win32
+[debug] [2024-11-26T17:01:58.792Z] Node Version:  v20.13.1
+[debug] [2024-11-26T17:01:58.793Z] Time:          Tue Nov 26 2024 22:01:58 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-11-26T17:01:58.793Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-26T17:01:58.934Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-26T17:01:58.935Z] > authorizing via signed-in user (naseemwalikhan776@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\react-food-delivery-app-main\react-food-delivery-app-main\food-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-26T17:02:35.120Z] Using project from CLI flag: react-delievery-app
+[debug] [2024-11-26T17:02:35.122Z] Checked if tokens are valid: true, expires at: 1732644004656
+[debug] [2024-11-26T17:02:35.123Z] Checked if tokens are valid: true, expires at: 1732644004656
+[debug] [2024-11-26T17:02:35.126Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-delievery-app [none]
+[debug] [2024-11-26T17:02:35.454Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/react-delievery-app, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/react-delievery-app failed, reason: read ECONNRESET
+[debug] [2024-11-26T17:02:35.456Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/react-delievery-app (original: request to https://firebase.googleapis.com/v1beta1/projects/react-delievery-app failed, reason: read ECONNRESET)
+[debug] [2024-11-26T17:02:35.848Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/react-delievery-app
+    at RetryOperation._fn (C:\Users\Hasnain\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:261:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project react-delievery-app. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-11-26T17:08:24.528Z] ----------------------------------------------------------------------
+[debug] [2024-11-26T17:08:24.533Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hasnain\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-26T17:08:24.533Z] CLI Version:   13.27.0
+[debug] [2024-11-26T17:08:24.534Z] Platform:      win32
+[debug] [2024-11-26T17:08:24.534Z] Node Version:  v20.13.1
+[debug] [2024-11-26T17:08:24.534Z] Time:          Tue Nov 26 2024 22:08:24 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-11-26T17:08:24.534Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-26T17:08:24.664Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-26T17:08:24.664Z] > authorizing via signed-in user (naseemwalikhan776@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\react-food-delivery-app-main\react-food-delivery-app-main\food-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-26T17:08:33.393Z] Using project from CLI flag: react-delievery-app
+[debug] [2024-11-26T17:08:33.395Z] Checked if tokens are valid: true, expires at: 1732644004656
+[debug] [2024-11-26T17:08:33.395Z] Checked if tokens are valid: true, expires at: 1732644004656
+[debug] [2024-11-26T17:08:33.398Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-delievery-app [none]
+[debug] [2024-11-26T17:08:34.072Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-delievery-app 200
+[debug] [2024-11-26T17:08:34.073Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-delievery-app {"projectId":"react-delievery-app","projectNumber":"570725268014","displayName":"react-delievery-app","name":"projects/react-delievery-app","resources":{"hostingSite":"react-delievery-app"},"state":"ACTIVE","etag":"1_0e455442-282f-4cfe-9eac-ab5b18b85303"}
+[info] i  Using project react-delievery-app (react-delievery-app) 
+[info] 
+=== Hosting Setup
+[debug] [2024-11-26T17:08:34.093Z] Checked if tokens are valid: true, expires at: 1732644004656
+[debug] [2024-11-26T17:08:34.093Z] Checked if tokens are valid: true, expires at: 1732644004656
+[debug] [2024-11-26T17:08:34.093Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-delievery-app [none]
+[debug] [2024-11-26T17:08:34.431Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-delievery-app 200
+[debug] [2024-11-26T17:08:34.432Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-delievery-app {"projectId":"react-delievery-app","projectNumber":"570725268014","displayName":"react-delievery-app","name":"projects/react-delievery-app","resources":{"hostingSite":"react-delievery-app"},"state":"ACTIVE","etag":"1_0e455442-282f-4cfe-9eac-ab5b18b85303"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-11-26T17:45:14.740Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-11-26T17:45:14.962Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-11-26T17:45:14.963Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.0.2","browserURL":"https://www.gstatic.com/firebasejs/11.0.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.0.2/firebase.tgz"},"live":{"version":"11.0","browserURL":"https://www.gstatic.com/firebasejs/live/11.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.0/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.0.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.0.2/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.0.2/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.0.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.0.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.0.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.0.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.0.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.0.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.0.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.0.2/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.0.2/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.0.2/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.memory.js"}}
